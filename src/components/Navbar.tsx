@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className='max-container md:px-16 px-4 py-8 flex items-center justify-between'>
 
       <Link href={"/"}>
-        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29}></Image>
+        <Image src="/hilink-logo.svg" alt="logo" width={74} height={29}></Image> {/* width, height dite hobe */}
       </Link>
 
       <ul className="hidden gap-x-12 lg:flex items-center justify-center">
@@ -59,6 +59,7 @@ const Navbar = () => {
           <li className='py-4'><a href="/" className='text-2xl font-[400]'>Services</a></li>
           <li className='py-4'><a href="/" className='text-2xl font-[400]'>Pricing</a></li>
           <li className='py-4'><a href="/" className='text-2xl font-[400]'>Contact Us</a></li>
+          <li className='py-4'><a href="/" className='text-2xl font-[400]'>Login</a></li>
         </ul>
 
       </div>

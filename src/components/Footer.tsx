@@ -4,7 +4,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="max-container md:px-16 px-4 mb-24">
+    <footer className="max-container md:px-16 px-4 mb-20">
       <div className='lg:flex justify-between w-full mb-14'>
         <Link href="/">
           <Image src="hilink-logo.svg" alt="logo" width={74} height={29}/>
