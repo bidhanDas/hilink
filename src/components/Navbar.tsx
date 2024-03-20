@@ -31,7 +31,7 @@ const Navbar = () => {
 
       {
         !navigation && (
-          <div className='lg:hidden block cursor-pointer' onClick={() => setNavigation(true)}> {/* call-back function*/}
+          <div className='lg:hidden block cursor-pointer' onClick={() => setNavigation(true)}> {/* call-back function */} {/* call-back function == call a function with argument */}
             <FaBars size={30}></FaBars>
           </div>
         )
